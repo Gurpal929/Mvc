@@ -7,7 +7,7 @@ public class AddDao {
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Connection con = null;
 
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.jDriver");
         con=DriverManager.getConnection("jdbc:mysql://localhost:3306/add_numbers");
         return con;
     }
