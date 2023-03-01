@@ -9,7 +9,7 @@ public class Main {
  public static void main(String[] args) throws SQLException {
   Connection con= Database.getConnection();
      if(con != null){
-
+     system.out.println("Database is connected");
      }
  }
 }
