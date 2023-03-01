@@ -4,7 +4,7 @@ import java.sql.SQLException;
 public class Main {
  public static void main(String[] args) throws SQLException, ClassNotFoundException {
   Connection con=AddDao.getConnection();
-//     if(con != null){
+////    if(con != null){
 //         System.out.println("Database is connected");
 //     }
      try {
