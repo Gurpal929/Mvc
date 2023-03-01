@@ -12,7 +12,11 @@ public class Main {
          System.out.println("Database is connected");
      }*/
   AddDao ad=new AddDao();
+
   //ad.Save();
   ad.showNum();
+ // ad.Delete();
+ // ad.update();
+
  }
 }
